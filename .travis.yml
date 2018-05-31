@@ -17,4 +17,4 @@ before_script:
   - sudo docker-compose -f build.yml build
 
 script:
-  - sudo docker-compose -f start-sector.yml run sectorserver npm run coverage
+  - sudo docker-compose -f start-report.yml run reportserver npm run coverage

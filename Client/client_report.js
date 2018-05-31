@@ -19,12 +19,12 @@ var strategy = new JwtStrategy(jwtOptions, async function(payload, next) {
 
 Passport.use(strategy)
 
-Passport.serializeUser((sector, cb) => {
-      cb(null, sector)
+Passport.serializeUser((report, cb) => {
+      cb(null, report)
   })
 
-Passport.deserializeUser((sector, cb) => {
-      cb(null, sector)
+Passport.deserializeUser((report, cb) => {
+      cb(null, report)
   })
 
 
