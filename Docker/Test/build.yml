@@ -1,0 +1,14 @@
+version: '3.5'
+
+services:
+  reportserver:
+    image: dulce/report-server:test
+    build:
+      context: ../../
+      dockerfile: Docker/Test/Server/Dockerfile
+
+  reportclient:
+    image: dulce/report-client:test
+    build:
+      context: ../../
+      dockerfile: Docker/Test/Client/Dockerfile
