@@ -1,5 +1,5 @@
-### Para mais informações visite nossa página [dulce](https://fga-gpp-mds.github.io/2018.1-Dulce_App/index.html)
-# Report
+[<img src="docs/DulceHorizontal.svg" width="1300" title="">](https://dulce-work-schedule.github.io/)
+# Dulce Report
 
 [![Build Status](https://travis-ci.org/Dulce-Work-Schedule/2018.1-Dulce_Report.svg?branch=master)](https://travis-ci.org/Dulce-Work-Schedule/2018.1-Dulce_Report)
 [![Maintainability](https://api.codeclimate.com/v1/badges/7e9e4a1a322533b1dc8f/maintainability)](https://codeclimate.com/github/Dulce-Work-Schedule/2018.1-Dulce_Report/maintainability)
@@ -9,7 +9,7 @@
 ### Microsserviços de Relatórios
 
 O microsserviço Report é utilizado pelo app [Dulce](https://dulce-work-schedule.github.io/2018.1-Dulce_App/) para gerar relatórios estatísticos que auxiliam na gestão de escalas. Report retornará as seguintes informações:
-M
+
 * Média histórica de plantonistas por horário por dia ou setor;
 * Estatística de plantonistas por horário por setor ou instituição;
 * Histórico de quantidade mínima e máxima de plantonistas por horário por dia;
